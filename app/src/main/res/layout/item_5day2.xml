@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="79dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background"
+
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:id="@+id/homnay"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hôm nay"/>
+    <TextView
+        android:textSize="15dp"
+        android:id="@+id/day"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ngày"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/anh1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/img_3"/>
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/nhietdocao"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhiệt độ cao nhất"/>
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/nhietdothap"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhiệt độ thấp nhất"/>
+    <ImageView
+        android:id="@+id/anh2"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/img_3"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
